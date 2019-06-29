@@ -1,0 +1,8 @@
+<h1 style="font-family:helvetica">AVAILABLE COUPONS</h1>
+<hr>
+
+<% @coupons.each do |coupon| %>
+    <%= coupon.store %>
+    <div style="font-family:helvetica"><%= link_to coupon.coupon_code, coupon %><div>
+
+<% end %>
