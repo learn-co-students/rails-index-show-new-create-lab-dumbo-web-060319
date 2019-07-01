@@ -16,9 +16,6 @@ describe 'Multiple coupons are shown' do
   end
 end
  
-
- 
-
 describe 'Show page' do
   before do
     @coupon = Coupon.create(coupon_code: "FREESTUFF", store: "Chipotle")
